@@ -1,0 +1,31 @@
+
+  .modal p{
+    color: red;
+  }
+  .close {
+    color: rgb(244, 18, 18);
+    float: right;
+    font-size: 30px;
+  }
+  .close:hover {
+    color: red;
+    cursor: pointer;
+  }
+  #btn-no{
+    background-color: rgb(16, 233, 16);
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btn-no:hover{
+background-color: rgb(6, 6, 244);
+}
+#btn-yes{
+background-color: rgb(16, 233, 16);
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#btn-yes:hover{
+
+background-color: hsl(20, 94%, 49%) ;
+}

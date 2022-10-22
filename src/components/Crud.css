@@ -1,0 +1,72 @@
+*{
+    text-align: center;
+}
+.main-input-div{
+    position: absolute;
+    right: 0%;
+    width: 50%;
+    height: 90vh;
+    border:2px solid green;
+    background-color: black;
+   
+}
+.main-input-div h1{
+    color: red;
+}
+.form-div{
+    border: 2px solid green;
+    width: 90%;
+    height: 70vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.name{
+    margin: 30px;
+}
+.name label{
+    color: hsla(180, 3%, 31%);
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.name input{
+    font-size: 30px;
+    border-radius: 10px;
+}
+.email{
+    margin: 30px;
+}
+.email label{
+    color: hsla(180, 3%, 31%);
+    font-size: 30px;
+    font-weight: 600;
+}
+.email input{
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.textarea-box{
+    margin-bottom: 60px;
+}
+.textarea-box label{
+    color: hsla(180, 3%, 31%);
+    font-size: 30px;
+    font-weight: 600;
+}
+.textarea-box textarea{
+    font-size: 30px;
+    border-radius: 10px;
+}
+.form-div button{
+    font-size: 30px;
+    background-color: rgb(9, 245, 158,0.2222);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.form-div button:hover{
+    background-color: rgb(244, 13, 13,0.22);
+}

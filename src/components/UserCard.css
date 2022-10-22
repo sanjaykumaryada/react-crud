@@ -1,0 +1,30 @@
+.usercard-div{
+    width: 650px;
+    height: auto;
+    border:2px solid green;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.usercard-div h1{
+    color: hsla(180, 3%, 31%);
+}
+#button-add{
+        background-color: rgb(16, 233, 16);
+        border-radius: 10px;
+        margin-right: 20px;
+        font-size: 20px;
+}
+#button-add:hover{
+    background-color: rgb(6, 6, 244);
+}
+#button-delete{
+    background-color: rgb(16, 233, 16);
+        border-radius: 10px;
+        font-size: 20px;
+}
+#button-delete:hover{
+
+    background-color: hsl(20, 94%, 49%) ;
+}
