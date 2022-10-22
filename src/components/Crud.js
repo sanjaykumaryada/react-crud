@@ -22,9 +22,7 @@ function CRUD(){
     }
 
     const handleEdit=(i)=>{
-       
-        console.log(userList[i]);
-        setUser(userList[i]);
+           setUser(userList[i]);
         setShow(true)
         setEditIndex(i)
     }
