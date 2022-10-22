@@ -1,22 +1,30 @@
-*{
-    text-align: center;
-}
+
 .main-input-div{
     position: absolute;
     right: 0%;
     width: 50%;
-    height: 90vh;
+    top: 100px;
+    height: 100vh;
     border:2px solid green;
     background-color: black;
    
 }
-.main-input-div h1{
-    color: red;
+.main-user-div{
+    position: absolute;
+    width: 50%;
+    top: 100px;
+    height: 100vh;
+    border:2px solid green;
+    background-color: black;
+}
+h2{
+    text-align: start;
+    color: white;
 }
 .form-div{
     border: 2px solid green;
     width: 90%;
-    height: 70vh;
+    height: 80vh;
     background-color: aliceblue;
     border-radius: 10px;
     margin-left: 20px;

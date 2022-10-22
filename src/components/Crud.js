@@ -8,6 +8,7 @@ function CRUD(){
     const [editIndex,setEditIndex]=useState();
      
     const handleAdd=()=>{
+        if(user.name.length > 3 && user.email.length>5){
             userList.push(user);
           setUser({
             name:"",
@@ -15,7 +16,7 @@ function CRUD(){
             address:""
           })
      }
-
+    }
     const handleDelete=(index)=>{
         userList.splice(index,1)
         setUserList([...userList])
@@ -70,8 +71,7 @@ function CRUD(){
             name="comment"
              placeholder="Enter your address here..."
               value={user.address}
-            
-              required
+            required
               onChange={(e)=>setUser({...user,address:e.target.value})}
              ></textarea>
             </div>
@@ -84,7 +84,7 @@ function CRUD(){
             {
                  userList.length < 1 ?(
                     
-                        <h1>Please add Users</h1>
+                        <h2>Please add Users</h2>
                     
                  ):(
                     userList.map((val,i)=>
